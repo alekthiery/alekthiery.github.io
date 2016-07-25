@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Note taking like a hacker - Alexandre Thiery</title>
+  <meta name="author" content="Alexandre Thiery" />
+  <meta name="description" content="The website of Alexandre Thiery" />
+  <link rel="canonical" href="http://tobanwiebe.com/blog/2015/10/note-taking-like-a-hacker" />
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="Alexandre Thiery" href="http://tobanwiebe.com/atom.xml" />
+
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="eleven columns content">
+			<p class="meta">
+  October 06, 2015 
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
+
+<h1 class="title">Note taking like a hacker</h1>
+
+<div id="post">
+
+	
+
+
+  <p>In the spirit of <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">blogging like a hacker</a>, I am now taking notes like a hacker, thanks to a system I pieced together using Markdown and Dropbox.
+I have used Evernote and Google Docs for my notes in the past, but I was never satisfied.</p>
+
+<p>I liked the idea of Markdown, and tried some online editors like <a href="https://stackedit.io">StackEdit</a> and <a href="https://laverna.cc">Laverna</a>.
+This was a nice experience, but I was lured by the tantalizing prospect of editing the Markdown files in my text editor (vim), rather than the web editor.
+(StackEdit can sync with Dropbox, allowing local editing of the plaintext files, but unfortunately, each file has to be synced manually, so you can’t just sync a directory.)</p>
+
+<p>My note taking system had to have these features:</p>
+
+<ul>
+  <li>Markdown based</li>
+  <li>Accessible across devices</li>
+  <li>Edit notes in any text editor</li>
+  <li>MathJax enabled for writing math with <script type="math/tex">\LaTeX</script></li>
+</ul>
+
+<p>I don’t really care about embedding media or features like Evernote’s clipping functionality.
+As a PhD student, I mostly just want to save academic things like research ideas and paper summaries.</p>
+
+<p>My system is minimal, but effective.
+Notes are just Markdown files in my Dropbox.
+On my desktop, I can edit them in any text editor.
+With vim, I use the <a href="https://github.com/greyblake/vim-preview">vim-preview</a> plugin to render an html preview.</p>
+
+<p>On a mobile device, I can of course access the plaintext through the Dropbox app.
+But there are also Markdown apps like <a href="http://2appstudio.com/jotterpad/">Jotterpad</a> which can connect to Dropbox.</p>
+
+<p>And that’s it! Very simple, but now my notes are in a very portable format. (Speaking of which, I wrote a <a href="https://github.com/tobanw/laverna-export">little script</a> to export notes from Laverna.)</p>
+
+
+</div>
+
+
+
+
+
+
+
+		</div>
+		<div class="four columns sidebar">
+			<nav>
+
+	  <a href="/">
+	   <img src="/rw.png" id="logo" alt="Blog logo"/>
+	  </a>
+	  <div id="message">
+	    <p>Random wanderings in mathematics and machine learning...</p>
+	  </div>
+
+
+
+	<div id="social">
+		<div id="stalker">
+  
+  <a title="Homepage" id="homepage" href="http://www.normalesup.org/~athiery/">
+    <i class="fa fa-home"></i>
+  </a>
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <a title="alekkk on Twitter" href="https://twitter.com/alekkk">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a title="Alexandre Thiery on LinkedIn" href="https://www.linkedin.com/in/alexandre-thiery-2981686">
+    <i class="fa fa-linkedin-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Alexandre Thiery on Google Scholar" href="https://scholar.google.fr/citations?user=szBOsCgAAAAJ">
+    <i class="fa fa-road"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Atom feed" id="atom" href="/atom.xml">
+    <i class="fa fa-rss-square"></i>
+  </a>
+  
+
+
+
+</div>
+
+	</div>
+</nav>
+
+		</div>
+	</div>
+
+  <!-- load mathjax -->
+  <script type="text/javascript"
+	  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <!-- load mousetrap (keyboard handler) -->
+  <script type="text/javascript"
+	  src="/assets/scripts/mousetrap.min.js">
+  </script>
+  <script type="text/javascript"
+	  src="/assets/scripts/mousetrap-bind-dictionary.min.js">
+  </script>
+  <!-- load my keyboard shortcuts -->
+  <script type="text/javascript"
+	  src="/assets/scripts/keyboard.js">
+  </script>
+
+</body>
+</html>

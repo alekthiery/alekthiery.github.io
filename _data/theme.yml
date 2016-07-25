@@ -1,0 +1,71 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#3498db'
+focus_color: '#aa0000'
+
+# layout position: sidebar and content
+sidebar_position: left
+content_position: right
+
+# Profile links on the sidebar, leave blank to ignore
+#social:
+  #gravatar: 56e8e22796618ea3b817d4aae19c6e33
+  #facebook: tobanw
+  #github: tobanw
+  #linkedin: tobanw
+  #twitter:
+  #bitbucket:
+  #hacker_news:
+  #stackexchange:
+  #stackoverflow:
+  #tumblr:
+  #gplus:
+
+# "Hi, I'm _______"
+#name: Toban Wiebe
+#email-user: tobanw
+#email-host: gmail.com
+#title:
+#tagline: Economics PhD student at Penn
+
+# custom RSS feed
+#feedurl: http://feeds.feedburner.com/TobanWiebe
+
+# Google Analytics key, leave blank to ignore
+#google_analytics_key: UA-67313542-1
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: false
+
+
+social:
+  #github: alekthiery
+  #bitbucket: philipj
+  #hacker_news: swanson
+  #stackexchange: 348619
+  #stackoverflow: 348619
+  twitter: alekkk
+  arxiv: blbbla
+  #facebook: zuck
+  #tumblr: animalygifs
+  linkedin: alexandre-thiery-2981686
+  #gplus: blabalba
+  gscholar: szBOsCgAAAAJ
+  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
+  #flickr: johndoe
+
+# "Hi, I'm _______"
+name: Alexandre Thiery
+showpersonalwebpage: true
+#email: alekthiery.blog@gmail.com
+#tagline: "weak opinions, strongly held"
+
+# Google Analytics key, leave blank to ignore
+#google_analytics_key: UA-xxxx-x
+
+# Toggle "Postings are my own" disclaimer in footer
+#show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: true
