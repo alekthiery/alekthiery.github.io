@@ -3,6 +3,7 @@ layout: post
 title:  "Simple keyboard shortcuts for any website"
 date:   2015-11-28 16:30:00
 type: post
+comments: true 
 ---
 I'm a huge fan of Gmail's vim-inspired keyboard shortcuts.
 It's been nice to see the adoption of keyboard shortcuts in other sites, but for most of the web, keyboard access remains completely ignored.
