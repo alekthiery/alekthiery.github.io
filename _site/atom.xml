@@ -4,7 +4,7 @@
  <title>The blog of Alexandre Thiery</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2017-01-13T23:49:30+08:00</updated>
+ <updated>2017-12-16T18:31:32+00:00</updated>
  <id>http://localhost:4000/</id>
  <author>
    <name>Alexandre Thiery</name>
@@ -14,7 +14,7 @@
  <entry>
    <title>MathJax with Kramdown</title>
    <link href="http://localhost:4000/blog/2016/02/mathjax-kramdown"/>
-   <updated>2016-02-10T18:30:00+08:00</updated>
+   <updated>2016-02-10T10:30:00+00:00</updated>
    <id>http://localhost:4000/blog/2016/02/mathjax-kramdown</id>
    <content type="html">&lt;p&gt;Last week, GitHub Pages &lt;a href=&quot;https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0&quot;&gt;upgraded to Jekyll 3.0&lt;/a&gt;.
 One major consequence of the upgrade is that, for Jekyll sites hosted on GitHub Pages, &lt;em&gt;only&lt;/em&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;kramdown&lt;/code&gt; engine is supported.&lt;/p&gt;
@@ -36,7 +36,7 @@ This means that it will automatically infer whether you want inline or displayed
  <entry>
    <title>Simple keyboard shortcuts for any website</title>
    <link href="http://localhost:4000/blog/2015/11/keyboard-shortcuts-web"/>
-   <updated>2015-11-29T00:30:00+08:00</updated>
+   <updated>2015-11-28T16:30:00+00:00</updated>
    <id>http://localhost:4000/blog/2015/11/keyboard-shortcuts-web</id>
    <content type="html">&lt;p&gt;I’m a huge fan of Gmail’s vim-inspired keyboard shortcuts.
 It’s been nice to see the adoption of keyboard shortcuts in other sites, but for most of the web, keyboard access remains completely ignored.
@@ -54,13 +54,12 @@ I used the excellent &lt;a href=&quot;https://craig.is/killing/mice&quot;&gt;Mou
 
 &lt;p&gt;To get &amp;lt;&lt;code class=&quot;highlighter-rouge&quot;&gt;g&lt;/code&gt; then &lt;code class=&quot;highlighter-rouge&quot;&gt;h&lt;/code&gt;&amp;gt; style jumping, all you need is:&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Mousetrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Mousetrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
 	&lt;span class=&quot;s1&quot;&gt;'g h'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;	&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
 	&lt;span class=&quot;s1&quot;&gt;'g b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;	&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/blog&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
 	&lt;span class=&quot;s1&quot;&gt;'g r'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;	&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/research&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;That’s it: incredibly simple.&lt;/p&gt;
 
@@ -78,13 +77,12 @@ I wrote &lt;a href=&quot;https://github.com/tobanw/tobanw.github.io/blob/master/
 &lt;p&gt;I also tweaked the CSS to change the color of focused links. 
 To bind it in Mousetrap:&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Mousetrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Mousetrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
 	&lt;span class=&quot;s1&quot;&gt;'j'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;blogNav&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'j'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
 	&lt;span class=&quot;s1&quot;&gt;'k'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;blogNav&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'k'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
 	&lt;span class=&quot;s1&quot;&gt;'o'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;blogNav&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'o'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
@@ -97,7 +95,7 @@ Hopefully &lt;a href=&quot;https://craig.is/killing/mice&quot;&gt;Mousetrap&lt;/
  <entry>
    <title>Economic growth via effective regulation</title>
    <link href="http://localhost:4000/blog/2015/11/economic-growth-effective-regulation"/>
-   <updated>2015-11-07T16:30:00+08:00</updated>
+   <updated>2015-11-07T08:30:00+00:00</updated>
    <id>http://localhost:4000/blog/2015/11/economic-growth-effective-regulation</id>
    <content type="html">&lt;p&gt;I somehow ended up reading &lt;a href=&quot;http://johnhcochrane.blogspot.com/2015/10/economic-growth.html&quot;&gt;this long essay&lt;/a&gt; by economist John Cochrane on growth-oriented policy.
 I really enjoyed it because it takes a hard-headed approach to topics where reason is too often crowded out by &lt;a href=&quot;https://philosophynow.org/issues/101/The_Righteous_Mind_by_Jonathan_Haidt&quot;&gt;moral instinct&lt;/a&gt;.
@@ -213,7 +211,7 @@ And I hope that some of these proposals (like immigration) can gain enough momen
  <entry>
    <title>Note taking like a hacker</title>
    <link href="http://localhost:4000/blog/2015/10/note-taking-like-a-hacker"/>
-   <updated>2015-10-06T18:30:00+08:00</updated>
+   <updated>2015-10-06T11:30:00+01:00</updated>
    <id>http://localhost:4000/blog/2015/10/note-taking-like-a-hacker</id>
    <content type="html">&lt;p&gt;In the spirit of &lt;a href=&quot;http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;blogging like a hacker&lt;/a&gt;, I am now taking notes like a hacker, thanks to a system I pieced together using Markdown and Dropbox.
 I have used Evernote and Google Docs for my notes in the past, but I was never satisfied.&lt;/p&gt;
@@ -250,7 +248,7 @@ But there are also Markdown apps like &lt;a href=&quot;http://2appstudio.com/jot
  <entry>
    <title>New Jekyll site</title>
    <link href="http://localhost:4000/blog/2015/09/new-jekyll-site"/>
-   <updated>2015-09-05T16:30:00+08:00</updated>
+   <updated>2015-09-05T09:30:00+01:00</updated>
    <id>http://localhost:4000/blog/2015/09/new-jekyll-site</id>
    <content type="html">&lt;p&gt;So I decided to move from Wordpress to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
 Not that I had any complaints with Wordpress, it’s an absolutely fantastic platform.
@@ -263,32 +261,6 @@ Furthermore, I can host the site on &lt;a href=&quot;https://pages.github.com/&q
 &lt;p&gt;I’ve chosen a Creative Commons 4.0 license to encourage sharing.
 Feel free to copy code from the &lt;a href=&quot;https://github.com/tobanw/tobanw.github.io&quot;&gt;github repository&lt;/a&gt; that this site is generated from.&lt;/p&gt;
 
-</content>
- </entry>
- 
- <entry>
-   <title>Double standard: caffeine vs nicotine</title>
-   <link href="http://localhost:4000/blog/2015/01/double-standard-caffeine-vs-nicotine"/>
-   <updated>2015-01-16T22:20:48+08:00</updated>
-   <id>http://localhost:4000/blog/2015/01/double-standard-caffeine-vs-nicotine</id>
-   <content type="html">&lt;blockquote&gt;[...] there is a kind of puritanical view that everything relating to nicotine is bad and harmful and should be stamped on.&lt;/p&gt;
-&lt;p&gt;-&lt;a href=&quot;http://www.newscientist.com/article/dn26160-who-vaping-report-is-misguided-say-tobacco-experts.html#.VLgL1jXL_7B&quot;&gt;Richard West&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;I'm no expert on this topic, but it seems to me that the harms of tobacco are from smoking (and chewing) and not from the nicotine itself (apart from the addictiveness). So nicotine administered with gum/patch/vaping would be somewhat more like caffeine in harmfulness (loads of people are addicted to caffeine).&lt;/p&gt;
-&lt;p&gt;Nicotine also seems to have similar useful effects. From &lt;a href=&quot;https://en.wikipedia.org/wiki/Nicotine&quot;&gt;Wikipedia&lt;/a&gt;: &quot;Nicotine appears to have significant performance enhancing effects, particularly in fine motor skills, attention, and memory.&quot; A Martian scientist comparing the harms and benefits (for humans) of drinking coffee vs &lt;a href=&quot;http://www.engadget.com/2014/05/23/vaporizers-explainer/&quot;&gt;vaping nicotine&lt;/a&gt; might think that both drugs are safe and have productivity-boosting effects, and wouldn't see a reason for only one of them to be socially acceptable.&lt;/p&gt;
-&lt;p&gt;So why is nicotine held to a &lt;a href=&quot;http://www.newscientist.com/article/dn26160-who-vaping-report-is-misguided-say-tobacco-experts.html#.VLgL1jXL_7B&quot;&gt;much higher standard&lt;/a&gt;? Well, the public health effort to end smoking became a moral crusade. As Jonathan Haidt puts it, morality binds and blinds. The anti-smoking crusade gained enough strength that it created &lt;a href=&quot;https://www.youtube.com/watch?v=gUEjnoWpdao&quot;&gt;a hated enemy&lt;/a&gt;. Smokers in North America are now a low-status out-group from the perspective of most non-smokers. As usual, when activists morally charge their case by painting something as sacred or evil, they commit themselves to not giving up an inch. Smoking is pure evil, and nicotine is central to smoking, so nicotine must be evil too. Any admission that nicotine might not be horrible is helping the enemy.&lt;/p&gt;
-&lt;p&gt;Caffeine, on the other hand, did not get loaded with negative affect because it had a safe delivery system. Imagine if nicotine had historically been consumed in drink form instead of smoking -- in such a world, I imagine that it would just be another stimulant drink like coffee or tea.&lt;/p&gt;
-&lt;p&gt;It's a real shame that e-cigarettes (nicotine) are being morally condemned along with cigarettes (tobacco). If smokers can switch to vaping, they can avoid all the harm and still get their nicotine. From a public health perspective, getting smokers to switch is a huge win. Doctors should be prescribing e-cigs to smokers, government should promote switching. Unfortunately, since nicotine has been painted evil by association, it's probably not going to happen.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>A thought on methodology</title>
-   <link href="http://localhost:4000/blog/2014/08/a-thought-on-methodology"/>
-   <updated>2014-08-26T09:30:50+08:00</updated>
-   <id>http://localhost:4000/blog/2014/08/a-thought-on-methodology</id>
-   <content type="html">&lt;p&gt;I've never felt comfortable with the logical positivists' &quot;science is prediction&quot; characterization, primarily because it neglects what I intuitively think of as the heart of science: explanation. For example, Darwin's theory of evolution – perhaps the greatest scientific discovery ever – is big on explanation, but not nearly as big on prediction. (Because evolution happens on such long timescales, although microbial evolution can be observed on very short timescales.) Or consider the 'selfish gene' paradigm, the evolutionary paradigm of viewing the gene as fundamental unit of selection, and the organism as a mere tool fabricated by the genes for the purpose of propagating themselves into the future. Dawkins' discusses (I think it was in The Extended Phenotype) criticisms of the idea as not providing any new predictions. My initial reaction to these criticisms is always: So what? They're wonderful &lt;em&gt;explanations&lt;/em&gt; of the world. They make sense of the world. Isn't that pretty remarkable?&lt;/p&gt;
-&lt;p&gt;The point I want to make here is that the emphasis on prediction is just a convenient special case of a more general principle: that a theory should correspond to reality, just as a &lt;a href=&quot;http://wiki.lesswrong.com/wiki/Map_and_Territory_(sequence)&quot; target=&quot;_blank&quot;&gt;map corresponds to the territory&lt;/a&gt;. Reality can be observed past, present, and future. It is just as well to vet a theory against past observations as against future observations. The reason the scientific method favors prediction is that it prevents the scientist from concocting a 'just so' story that too neatly fits the existing facts (&quot;overfitting&quot;). An idealized honest scientist can test a theory against any empirical evidence.&lt;/p&gt;
-&lt;p&gt;Darwin's theory is so amazing because &lt;a href=&quot;http://www.amazon.com/gp/product/1416594795/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=1416594795&amp;amp;linkCode=as2&amp;amp;tag=highthou-20&amp;amp;linkId=V4OQUPRBW3EBZQ6E&quot;&gt;it makes sense of so many existing facts&lt;/a&gt;. (And you can still make predictions about historical facts (&lt;a href=&quot;http://erdmannevolution.blogspot.com/2010/04/retrodictions.html&quot; target=&quot;_blank&quot;&gt;&quot;retrodictions&quot;&lt;/a&gt;), such as the famous quip that evolution would be falsified by finding &lt;a href=&quot;https://en.wikipedia.org/wiki/Precambrian_rabbit&quot; target=&quot;_blank&quot;&gt;fossil rabbits in the precambrian&lt;/a&gt;.) Of course, if you have a beautiful theory that has no connection to reality, then you're not doing science. Science is concerned with explaining reality, and so scientific theories must say things about reality – things which can (in principle) be empirically checked. It ultimately doesn't matter where that evidence is temporally located.&lt;/p&gt;
 </content>
  </entry>
  
